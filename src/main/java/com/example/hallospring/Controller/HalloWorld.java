@@ -7,8 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/API")
 public class HalloWorld {
-    @GetMapping("/helloWorldSpring")
-    public String helloworld(){
-        return "Hallo Spring";
+    @GetMapping("/helloWorldSpring1")
+    public String helloworld1(){
+        return "Hallo Spring1";
+    }
+    @GetMapping("/helloWorldSpring2")
+    public String helloworld2(){
+        return "Hallo Spring2";
     }
 }
