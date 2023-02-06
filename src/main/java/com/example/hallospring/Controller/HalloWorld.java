@@ -28,7 +28,7 @@ public class HalloWorld {
 
     @GetMapping("/post")
     public String post(@RequestBody String text) {
-        return "Body" + text ;
+        return "Body" + text.length();
 
     }
 
