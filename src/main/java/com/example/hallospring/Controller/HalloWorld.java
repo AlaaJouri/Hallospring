@@ -32,7 +32,9 @@ public class HalloWorld {
 
     }
 
+    /*
     @GetMapping("/put")
     public void put(@RequestBody product product) {
     }
+    */
 }
